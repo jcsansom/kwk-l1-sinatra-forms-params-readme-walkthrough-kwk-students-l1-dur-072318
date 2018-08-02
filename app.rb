@@ -25,4 +25,12 @@ post '/cupid' do
 end
  
 
+get '/' do
+  erb :home
+end
+
+post '/home' do
+  erb :homes
+end
+
 end
